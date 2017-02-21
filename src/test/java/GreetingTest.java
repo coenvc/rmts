@@ -8,6 +8,6 @@ import rmts.Models.Greeting;
 public class GreetingTest {
     @Test public void TestMehtod(){
         Greeting greeting = new Greeting(1,"hello");
-        Assert.assertEquals(greeting.Test(),false);
+        Assert.assertEquals(greeting.Test(),true);
     }
 }
